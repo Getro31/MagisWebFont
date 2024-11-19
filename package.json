@@ -1,10 +1,14 @@
 {
   "name": "webfontmagis",
+  "type": "module",
   "version": "1.0.0",
   "description": "custom web font ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf outline solid package *.tgz",
+    "export": "tsx ./node_modules/@figma-export/cli/bin/run use-config figma.config.ts",
+    "test": "node test.js",
+    "build": "run-s clean export"
   },
   "author": "Getro",
   "license": "$license",
@@ -15,5 +19,23 @@
   },
   "bugs": {
     "url": "https://github.com/Getro31/MagisWebFont/issues"
-  }
+  },
+  "devDependencies": {
+    "@figma-export/cli": "^6.0.2",
+    "@figma-export/output-components-as-svg": "^6.0.1",
+    "@figma-export/output-styles-as-sass": "^6.0.1",
+    "@figma-export/transform-svg-with-svgo": "^6.0.2",
+    "@figma-export/types": "^6.0.0",
+    "@types/node": "^22.9.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "files": [
+    "outline/",
+    "solid/"
+  ]
 }
