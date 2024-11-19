@@ -9,7 +9,7 @@ const fileId = process.env.FILE_ID;
 /** @type { import('@figma-export/types').ComponentsCommandOptions } */
 const componentOptions = {
   fileId,
-  onlyFromPages: ["solid"],
+  onlyFromPages: ["solid", "outline"],
   transformers: [
     transformSvgWithSvgo({
       multipass: true,
