@@ -1,0 +1,19 @@
+{
+  "name": "webfontmagis",
+  "version": "1.0.0",
+  "description": "custom web font ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Getro",
+  "license": "$license",
+  "homepage": "https://github.com/Getro31/MagisWebFont#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Getro31/MagisWebFont.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Getro31/MagisWebFont/issues"
+  }
+}
