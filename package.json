@@ -8,7 +8,7 @@
     "clean": "rimraf outline solid package *.tgz",
     "export": "tsx ./node_modules/@figma-export/cli/bin/run use-config figma.config.ts",
     "test": "node test.js",
-    "icongen": "fantasticon solid -o dist",
+    "icongen": "find ./solid  | xargs fantasticon  -o dist",
     "build": "run-s clean export icongen",
     "np": "np",
     "stash": "git add . && git commit -m 'update icons' ",
