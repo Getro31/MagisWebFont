@@ -9,7 +9,7 @@ const fileId = process.env.FILE_ID;
 /** @type { import('@figma-export/types').ComponentsCommandOptions } */
 const componentOptions = {
   fileId,
-  onlyFromPages: ["solid", "outline"],
+  onlyFromPages: ["solid"],
   transformers: [
     transformSvgWithSvgo({
       multipass: true,
@@ -23,7 +23,28 @@ const componentOptions = {
           },
         },
         {
+          name: "mergePaths",
+        },
+        {
+          name: "cleanupEnableBackground",
+        },
+        {
+          name: "sortAttrs",
+        },
+        {
+          name: "minifyStyles",
+        },
+        {
           name: "removeDimensions",
+        },
+        {
+          name: "cleanupNumericValues",
+        },
+        {
+          name: "removeAttrs",
+          params: {
+            attrs: "fill",
+          },
         },
       ],
     }),
