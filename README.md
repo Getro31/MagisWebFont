@@ -1,27 +1,25 @@
 # Name
 
-Web Font 
+Web Font
+
 # Author
 
 Magis
 
-
 # 📖 Usage
-
 
 Following expample in angular.json:
 
-\`\`\`javascript
+```
 {
-    "build": [
-        "styles": {
-            "node_modules/webfontmagis/dist/icons/icons.css"
-        }
-    ]
+"build": [
+"styles": {
+"node_modules/webfontmagis/dist/icons/icons.css"
 }
-\`\`\`
-
+]
+}
+```
 
 # Visit
 
-dist/icons/index.html
+[Home Page](dist/icons/index.html)
