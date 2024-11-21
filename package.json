@@ -1,7 +1,7 @@
 {
   "name": "webfontmagis",
   "type": "module",
-  "version": "2.1.5",
+  "version": "2.2.0",
   "description": "custom web font ",
   "main": "index.js",
   "scripts": {
