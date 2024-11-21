@@ -12,7 +12,7 @@ const files = fs.readdirSync(iconsDir).filter((file) => file.endsWith(".js"));
 const exports = files
   .map((file) => {
     const name = path.basename(file, ".js"); // Retirer l'extension
-    return `export { default as ${name} } from './icons/${name}';`;
+    return `export { default as ${name}Icon } from './icons/${name}';`;
   })
   .join("\n");
 

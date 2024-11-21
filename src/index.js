@@ -1,4 +1,4 @@
-export { default as Bourse } from './icons/Bourse';
-export { default as Calendar } from './icons/Calendar';
-export { default as Face } from './icons/Face';
-export { default as index } from './icons/index';
+export { default as BourseIcon } from './icons/Bourse';
+export { default as CalendarIcon } from './icons/Calendar';
+export { default as FaceIcon } from './icons/Face';
+export { default as indexIcon } from './icons/index';

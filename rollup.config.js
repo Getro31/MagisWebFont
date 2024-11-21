@@ -1,4 +1,5 @@
 import svgr from "@svgr/rollup";
+import resolve from "@rollup/plugin-node-resolve";
 
 export default {
   input: "src/index.js",
@@ -6,5 +7,5 @@ export default {
     file: "dist/bundle.js",
     format: "esm",
   },
-  plugins: [svgr()],
+  plugins: [resolve(), svgr()],
 };

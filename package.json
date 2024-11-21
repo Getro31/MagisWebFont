@@ -12,9 +12,9 @@
     "rollup": "npx rollup -c",
     "css": "node generate-css.js",
     "test": "vitest",
-    "build": "run-s clean export generate convert",
+    "build": "run-s clean export generate convert css",
     "np": "np",
-    "pack": "run-s build rollup css test"
+    "pack": "run-s test np"
   },
   "author": "Getro",
   "license": "$license",
@@ -44,6 +44,7 @@
     "src/icons/"
   ],
   "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "@svgr/cli": "^8.1.0",
     "@svgr/core": "^8.1.0",
     "@svgr/rollup": "^8.1.0",
