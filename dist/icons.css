@@ -1,15 +1,21 @@
 
-      .icon-Bourse {
-        background-image: url('../icons/Bourse.svg');
-      }
-    
+.icon-Bourse {
+  background: url('./icons/Bourse.svg') no-repeat center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
 
-      .icon-calendar {
-        background-image: url('../icons/calendar.svg');
-      }
-    
+.icon-calendar {
+  background: url('./icons/calendar.svg') no-repeat center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
 
-      .icon-face {
-        background-image: url('../icons/face.svg');
-      }
-    
+.icon-face {
+  background: url('./icons/face.svg') no-repeat center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
