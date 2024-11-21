@@ -12,14 +12,14 @@ Following expample in angular.json:
 
 ```
 {
-"build": [
-"styles": {
-"node_modules/webfontmagis/dist/icons/icons.css"
-}
-]
+    "build": [
+        "styles": {
+            "node_modules/webfontmagis/dist/icons/icons.css"
+        }
+    ]
 }
 ```
 
 # Visit
 
-[Home Page](dist/icons/index.html)
+[Home Page](dist/icons/icons.html)
