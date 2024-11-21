@@ -10,7 +10,7 @@ files.forEach((file) => {
   const iconName = path.basename(file, ".svg");
   cssContent += `
 .icon-${iconName} {
-  background: url('./src/icons/${file}') no-repeat center;
+  background: url('../src/icons/${file}') no-repeat center;
   display: inline-block;
   width: 24px;
   height: 24px;
