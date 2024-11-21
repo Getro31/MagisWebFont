@@ -22,4 +22,4 @@ Following expample in angular.json:
 
 # Visit
 
-[Home Page](dist/icons/icons.html)
+[Home Page](https://dist/icons/icons.html)
