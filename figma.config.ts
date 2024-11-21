@@ -12,38 +12,29 @@ const componentOptions = {
   onlyFromPages: ["icons"],
   transformers: [
     transformSvgWithSvgo({
-      multipass: true,
       plugins: [
+        // 1. Préserve le viewBox
         {
           name: "preset-default",
           params: {
             overrides: {
-              removeViewBox: false,
+              removeViewBox: false, // Assure que viewBox reste intact
             },
           },
         },
-        {
-          name: "mergePaths",
-        },
-        {
-          name: "cleanupEnableBackground",
-        },
-        {
-          name: "sortAttrs",
-        },
-        {
-          name: "minifyStyles",
-        },
-        {
-          name: "removeDimensions",
-        },
-        {
-          name: "cleanupNumericValues",
-        },
+        // 2. Déplace `fill` de <svg> vers chaque <path>
         {
           name: "removeAttrs",
           params: {
-            attrs: "fill",
+            attrs: "svg:fill", // Supprime `fill` de l'élément <svg>
+          },
+        },
+        {
+          name: "addAttributesToSVGElement",
+          params: {
+            attributes: [
+              { "data-fill-processed": "true" }, // Ajout pour trace interne (optionnel)
+            ],
           },
         },
       ],

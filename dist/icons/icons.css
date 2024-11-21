@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?701ac8a98226a372e590b918ac6a7123?#iefix") format("embedded-opentype"),
+url("./icons.woff2?701ac8a98226a372e590b918ac6a7123") format("woff2"),
+url("./icons.woff?701ac8a98226a372e590b918ac6a7123") format("woff"),
+url("./icons.ttf?701ac8a98226a372e590b918ac6a7123") format("truetype"),
+url("./icons.svg?701ac8a98226a372e590b918ac6a7123#icons") format("svg");
+}
+
+i[class^="magis-"]:before, i[class*=" magis-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.magis-baril:before {
+    content: "\f101";
+}
+.magis-bourse:before {
+    content: "\f102";
+}
+.magis-calendar:before {
+    content: "\f103";
+}
+.magis-face:before {
+    content: "\f104";
+}
+.magis-golf:before {
+    content: "\f105";
+}
