@@ -4,8 +4,7 @@
 /node_modules
 
 # build
-/outline
-/solid
+/src/icons
 
 # misc
 .DS_Store
