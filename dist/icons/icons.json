@@ -1,7 +1,17 @@
 {
-    "baril": "\\f101",
-    "bourse": "\\f102",
-    "calendar": "\\f103",
-    "face": "\\f104",
-    "golf": "\\f105"
+    "Abonnement &amp; Approvisionnement Mobile": "\\f101",
+    "Abonnement TV": "\\f102",
+    "baril": "\\f103",
+    "bourse": "\\f104",
+    "calendar": "\\f105",
+    "face": "\\f106",
+    "glass": "\\f107",
+    "golf": "\\f108",
+    "home": "\\f109",
+    "Impot": "\\f10a",
+    "Magis": "\\f10b",
+    "Menu": "\\f10c",
+    "plus": "\\f10d",
+    "Taxe": "\\f10e",
+    "Vector": "\\f10f"
 }
