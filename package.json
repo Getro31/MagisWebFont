@@ -5,7 +5,7 @@
   "description": "custom web font ",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf src/icons dist/icons package *.tgz",
+    "clean": "rimraf src/icons  package *.tgz",
     "export": "tsx ./node_modules/@figma-export/cli/bin/run use-config figma.config.ts",
     "icongen": "icon-font-generator src/icons/*.svg -o dist/icons -p magis",
     "dartgen": "node generate-dart.js",
