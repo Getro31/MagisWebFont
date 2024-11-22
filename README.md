@@ -20,7 +20,7 @@ npm install my-icon-package
 
 Following expample in angular.json:
 
-```
+```js
 {
     "build": [
         "styles": {
@@ -45,7 +45,7 @@ Pour installer les icônes et les fichiers Dart nécessaires à l'utilisation de
     ```
 
     ### Exemple :
-    ```
+    ```dart
     import 'dart:io';
     import 'package:http/http.dart' as http;
     import 'dart:convert';
@@ -82,7 +82,7 @@ Pour installer les icônes et les fichiers Dart nécessaires à l'utilisation de
     ## Usage
 
     Configurez votre pubspec.yaml
-    ```
+    ```dart
     flutter:
         assets:
             - assets/fonts/icons.ttf
