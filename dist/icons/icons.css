@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?239773188b6a7a9dc1de97e5f253eb9e?#iefix") format("embedded-opentype"),
-url("./icons.woff2?239773188b6a7a9dc1de97e5f253eb9e") format("woff2"),
-url("./icons.woff?239773188b6a7a9dc1de97e5f253eb9e") format("woff"),
-url("./icons.ttf?239773188b6a7a9dc1de97e5f253eb9e") format("truetype"),
-url("./icons.svg?239773188b6a7a9dc1de97e5f253eb9e#icons") format("svg");
+    src: url("./icons.eot?8f50dafe688c3793ee4e417ea4c8b42d?#iefix") format("embedded-opentype"),
+url("./icons.woff2?8f50dafe688c3793ee4e417ea4c8b42d") format("woff2"),
+url("./icons.woff?8f50dafe688c3793ee4e417ea4c8b42d") format("woff"),
+url("./icons.ttf?8f50dafe688c3793ee4e417ea4c8b42d") format("truetype"),
+url("./icons.svg?8f50dafe688c3793ee4e417ea4c8b42d#icons") format("svg");
 }
 
 i[class^="magis-"]:before, i[class*=" magis-"]:before {
@@ -18,48 +18,42 @@ i[class^="magis-"]:before, i[class*=" magis-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.magis-Abonnement &amp; Approvisionnement Mobile:before {
+.magis-baril:before {
     content: "\f101";
 }
-.magis-Abonnement TV:before {
+.magis-bourse:before {
     content: "\f102";
 }
-.magis-baril:before {
+.magis-calendar:before {
     content: "\f103";
 }
-.magis-bourse:before {
+.magis-cart:before {
     content: "\f104";
 }
-.magis-calendar:before {
+.magis-face:before {
     content: "\f105";
 }
-.magis-face:before {
+.magis-glass:before {
     content: "\f106";
 }
-.magis-glass:before {
+.magis-golf:before {
     content: "\f107";
 }
-.magis-golf:before {
+.magis-home:before {
     content: "\f108";
 }
-.magis-home:before {
+.magis-magis:before {
     content: "\f109";
 }
-.magis-Impot:before {
+.magis-menu:before {
     content: "\f10a";
 }
-.magis-Magis:before {
+.magis-phone:before {
     content: "\f10b";
 }
-.magis-Menu:before {
+.magis-plus:before {
     content: "\f10c";
 }
-.magis-plus:before {
+.magis-tax:before {
     content: "\f10d";
-}
-.magis-Taxe:before {
-    content: "\f10e";
-}
-.magis-Vector:before {
-    content: "\f10f";
 }
