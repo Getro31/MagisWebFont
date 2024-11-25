@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?f8adba7077a75a9a551034d8d462bc69?#iefix") format("embedded-opentype"),
-url("./icons.woff2?f8adba7077a75a9a551034d8d462bc69") format("woff2"),
-url("./icons.woff?f8adba7077a75a9a551034d8d462bc69") format("woff"),
-url("./icons.ttf?f8adba7077a75a9a551034d8d462bc69") format("truetype"),
-url("./icons.svg?f8adba7077a75a9a551034d8d462bc69#icons") format("svg");
+    src: url("./icons.eot?34ddd6e4b303ebdf298fff8b4c0e845a?#iefix") format("embedded-opentype"),
+url("./icons.woff2?34ddd6e4b303ebdf298fff8b4c0e845a") format("woff2"),
+url("./icons.woff?34ddd6e4b303ebdf298fff8b4c0e845a") format("woff"),
+url("./icons.ttf?34ddd6e4b303ebdf298fff8b4c0e845a") format("truetype"),
+url("./icons.svg?34ddd6e4b303ebdf298fff8b4c0e845a#icons") format("svg");
 }
 
 i[class^="magis-"]:before, i[class*=" magis-"]:before {
@@ -27,66 +27,84 @@ i[class^="magis-"]:before, i[class*=" magis-"]:before {
 .magis-bourse:before {
     content: "\f103";
 }
-.magis-calendar:before {
+.magis-building:before {
     content: "\f104";
 }
-.magis-cart:before {
+.magis-calendar:before {
     content: "\f105";
 }
-.magis-credit-simulation:before {
+.magis-cart:before {
     content: "\f106";
 }
-.magis-dashboard:before {
+.magis-credit-simulation:before {
     content: "\f107";
 }
-.magis-desk:before {
+.magis-dashboard:before {
     content: "\f108";
 }
-.magis-face:before {
+.magis-desk:before {
     content: "\f109";
 }
-.magis-filter:before {
+.magis-face:before {
     content: "\f10a";
 }
-.magis-gear:before {
+.magis-filter:before {
     content: "\f10b";
 }
-.magis-glass:before {
+.magis-gear:before {
     content: "\f10c";
 }
-.magis-grid:before {
+.magis-glass:before {
     content: "\f10d";
 }
-.magis-heart:before {
+.magis-grid:before {
     content: "\f10e";
 }
-.magis-home:before {
+.magis-heart:before {
     content: "\f10f";
 }
-.magis-intranet:before {
+.magis-home:before {
     content: "\f110";
 }
-.magis-loan:before {
+.magis-house:before {
     content: "\f111";
 }
-.magis-magis:before {
+.magis-intranet:before {
     content: "\f112";
 }
-.magis-menu:before {
+.magis-list-params:before {
     content: "\f113";
 }
-.magis-phone-regular:before {
+.magis-loan:before {
     content: "\f114";
 }
-.magis-plus:before {
+.magis-magis:before {
     content: "\f115";
 }
-.magis-report:before {
+.magis-menu:before {
     content: "\f116";
 }
-.magis-wallet:before {
+.magis-mif:before {
     content: "\f117";
 }
-.magis-withdrawal:before {
+.magis-overview:before {
     content: "\f118";
+}
+.magis-phone-regular:before {
+    content: "\f119";
+}
+.magis-plus:before {
+    content: "\f11a";
+}
+.magis-report:before {
+    content: "\f11b";
+}
+.magis-store:before {
+    content: "\f11c";
+}
+.magis-wallet:before {
+    content: "\f11d";
+}
+.magis-withdrawal:before {
+    content: "\f11e";
 }
