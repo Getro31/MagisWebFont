@@ -9,12 +9,12 @@ Magis
 ## Installation
 
 ### Pour JavaScript (ex. : Angular)
+
 Installez via npm :
 
 ```bash
 npm install my-icon-package
 ```
-
 
 # 📖 Usage
 
@@ -29,72 +29,82 @@ Following expample in angular.json:
     ]
 }
 ```
-### Pour Flutter (ex. : React)
 
-## Installation des icônes
+## Pour Flutter
+
+### Installation des icônes
 
 Pour installer les icônes et les fichiers Dart nécessaires à l'utilisation de ce package, exécutez le script d'installation :
 
 1. Téléchargez les fichiers :
    ```bash
    ./scripts/install_icons.sh
-    ```
+   ```
 2. Vous pouvez utiliser Dart pour telecharger les fichiers
-    ```
-    flutter run scripts/install_icons.dart
-    ```
 
-    ### Exemple :
-    ```dart
-    import 'dart:io';
-    import 'package:http/http.dart' as http;
-    import 'dart:convert';
+   ```
+   flutter run scripts/install_icons.dart
+   ```
 
-    Future<void> downloadFiles() async {
-      // URL des fichiers sur GitHub (ou un autre service)
-      const ttfUrl = 'https://github.com/Getro31/MagisWebFont/dist/icons/icons.ttf';
-      const dartUrl = 'https://github.com/Getro31/MagisWebFont/dist/magis_icons.dart';
+   ### Exemple :
 
-      // Téléchargement des fichiers
-      final ttfResponse = await http.get(Uri.parse(ttfUrl));
-      final dartResponse = await http.get(Uri.parse(dartUrl));
+   ```dart
+   import 'dart:io';
+   import 'package:http/http.dart' as http;
+   import 'dart:convert';
 
-      // Vérifiez si les requêtes sont réussies
-      if (ttfResponse.statusCode == 200 && dartResponse.statusCode == 200) {
-        // Enregistrez les fichiers dans le projet Flutter
-        final ttfFile = File('./assets/fonts/icons.ttf');
-        await ttfFile.writeAsBytes(ttfResponse.bodyBytes);
+   Future<void> downloadFiles() async {
+     // URL des fichiers sur GitHub (ou un autre service)
+     const ttfUrl = 'https://github.com/Getro31/MagisWebFont/blob/41bbb8bf3d7064677bfce07f36f312a72c18e9e4/dist/icons/icons.ttf';
+     const dartUrl = 'https://raw.githubusercontent.com/Getro31/MagisWebFont/refs/heads/master/dist/magis.dart';
 
-        final dartFile = File('./lib/icons/magis_icons.dart');
-        await dartFile.writeAsString(dartResponse.body);
+     // Téléchargement des fichiers
+     final ttfResponse = await http.get(Uri.parse(ttfUrl));
+     final dartResponse = await http.get(Uri.parse(dartUrl));
 
-        print('Fichiers téléchargés et enregistrés avec succès.');
-      } else {
-        print('Échec du téléchargement des fichiers.');
-      }
-    }
+     // Vérifiez si les requêtes sont réussies
+     if (ttfResponse.statusCode == 200 && dartResponse.statusCode == 200) {
+       // Enregistrez les fichiers dans le projet Flutter
+       final ttfFile = File('./assets/fonts/icons.ttf');
+       await ttfFile.writeAsBytes(ttfResponse.bodyBytes);
 
-    void main() {
-      downloadFiles();
-    }
-    ```
+       final dartFile = File('./lib/icons/magis_icons.dart');
+       await dartFile.writeAsString(dartResponse.body);
 
-    ## Usage
+       print('Fichiers téléchargés et enregistrés avec succès.');
+     } else {
+       print('Échec du téléchargement des fichiers.');
+     }
+   }
 
-    Configurez votre pubspec.yaml
-    ```dart
-    flutter:
-        assets:
-            - assets/fonts/icons.ttf
+   void main() {
+     downloadFiles();
+   }
+   ```
 
-    fonts:
-      - family: icons
-        fonts:
-          - asset: assets/fonts/icons.ttf
+   ## Usage
 
-    ```
+   Configurez votre pubspec.yaml
 
+   ```dart
+   flutter:
+       assets:
+           - assets/fonts/icons.ttf
 
+       fonts:
+         - family: icons
+           fonts:
+             - asset: assets/fonts/icons.ttf
+
+   ```
+
+   dans le code: 
+   ```
+   import 'package:my_icon_package/my_icon_package.dart';
+
+   Icon(MagisIcons.home, size: 40);
+
+   ```
 
 # Visit
 
@@ -123,7 +133,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 
 ---
 

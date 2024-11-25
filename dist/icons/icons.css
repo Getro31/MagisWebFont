@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?8f50dafe688c3793ee4e417ea4c8b42d?#iefix") format("embedded-opentype"),
-url("./icons.woff2?8f50dafe688c3793ee4e417ea4c8b42d") format("woff2"),
-url("./icons.woff?8f50dafe688c3793ee4e417ea4c8b42d") format("woff"),
-url("./icons.ttf?8f50dafe688c3793ee4e417ea4c8b42d") format("truetype"),
-url("./icons.svg?8f50dafe688c3793ee4e417ea4c8b42d#icons") format("svg");
+    src: url("./icons.eot?f8adba7077a75a9a551034d8d462bc69?#iefix") format("embedded-opentype"),
+url("./icons.woff2?f8adba7077a75a9a551034d8d462bc69") format("woff2"),
+url("./icons.woff?f8adba7077a75a9a551034d8d462bc69") format("woff"),
+url("./icons.ttf?f8adba7077a75a9a551034d8d462bc69") format("truetype"),
+url("./icons.svg?f8adba7077a75a9a551034d8d462bc69#icons") format("svg");
 }
 
 i[class^="magis-"]:before, i[class*=" magis-"]:before {
@@ -21,39 +21,72 @@ i[class^="magis-"]:before, i[class*=" magis-"]:before {
 .magis-baril:before {
     content: "\f101";
 }
-.magis-bourse:before {
+.magis-bill:before {
     content: "\f102";
 }
-.magis-calendar:before {
+.magis-bourse:before {
     content: "\f103";
 }
-.magis-cart:before {
+.magis-calendar:before {
     content: "\f104";
 }
-.magis-face:before {
+.magis-cart:before {
     content: "\f105";
 }
-.magis-glass:before {
+.magis-credit-simulation:before {
     content: "\f106";
 }
-.magis-golf:before {
+.magis-dashboard:before {
     content: "\f107";
 }
-.magis-home:before {
+.magis-desk:before {
     content: "\f108";
 }
-.magis-magis:before {
+.magis-face:before {
     content: "\f109";
 }
-.magis-menu:before {
+.magis-filter:before {
     content: "\f10a";
 }
-.magis-phone:before {
+.magis-gear:before {
     content: "\f10b";
 }
-.magis-plus:before {
+.magis-glass:before {
     content: "\f10c";
 }
-.magis-tax:before {
+.magis-grid:before {
     content: "\f10d";
+}
+.magis-heart:before {
+    content: "\f10e";
+}
+.magis-home:before {
+    content: "\f10f";
+}
+.magis-intranet:before {
+    content: "\f110";
+}
+.magis-loan:before {
+    content: "\f111";
+}
+.magis-magis:before {
+    content: "\f112";
+}
+.magis-menu:before {
+    content: "\f113";
+}
+.magis-phone-regular:before {
+    content: "\f114";
+}
+.magis-plus:before {
+    content: "\f115";
+}
+.magis-report:before {
+    content: "\f116";
+}
+.magis-wallet:before {
+    content: "\f117";
+}
+.magis-withdrawal:before {
+    content: "\f118";
 }
