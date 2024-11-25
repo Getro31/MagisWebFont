@@ -12,7 +12,7 @@
     "build": "run-s clean export icongen dartgen"
   },
   "author": "Getro",
-  "license": "$license",
+  "license": "MIT",
   "homepage": "https://github.com/Getro31/MagisWebFont#readme",
   "repository": {
     "type": "git",
