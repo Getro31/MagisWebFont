@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?34ddd6e4b303ebdf298fff8b4c0e845a?#iefix") format("embedded-opentype"),
-url("./icons.woff2?34ddd6e4b303ebdf298fff8b4c0e845a") format("woff2"),
-url("./icons.woff?34ddd6e4b303ebdf298fff8b4c0e845a") format("woff"),
-url("./icons.ttf?34ddd6e4b303ebdf298fff8b4c0e845a") format("truetype"),
-url("./icons.svg?34ddd6e4b303ebdf298fff8b4c0e845a#icons") format("svg");
+    src: url("./icons.eot?dd3d0f9b275d7db0a777793a4064cfee?#iefix") format("embedded-opentype"),
+url("./icons.woff2?dd3d0f9b275d7db0a777793a4064cfee") format("woff2"),
+url("./icons.woff?dd3d0f9b275d7db0a777793a4064cfee") format("woff"),
+url("./icons.ttf?dd3d0f9b275d7db0a777793a4064cfee") format("truetype"),
+url("./icons.svg?dd3d0f9b275d7db0a777793a4064cfee#icons") format("svg");
 }
 
 i[class^="magis-"]:before, i[class*=" magis-"]:before {
@@ -36,75 +36,78 @@ i[class^="magis-"]:before, i[class*=" magis-"]:before {
 .magis-cart:before {
     content: "\f106";
 }
-.magis-credit-simulation:before {
+.magis-dashboard:before {
     content: "\f107";
 }
-.magis-dashboard:before {
+.magis-desk:before {
     content: "\f108";
 }
-.magis-desk:before {
+.magis-face:before {
     content: "\f109";
 }
-.magis-face:before {
+.magis-filter:before {
     content: "\f10a";
 }
-.magis-filter:before {
+.magis-gear:before {
     content: "\f10b";
 }
-.magis-gear:before {
+.magis-glass:before {
     content: "\f10c";
 }
-.magis-glass:before {
+.magis-grid:before {
     content: "\f10d";
 }
-.magis-grid:before {
+.magis-heart:before {
     content: "\f10e";
 }
-.magis-heart:before {
+.magis-home:before {
     content: "\f10f";
 }
-.magis-home:before {
+.magis-house:before {
     content: "\f110";
 }
-.magis-house:before {
+.magis-intranet:before {
     content: "\f111";
 }
-.magis-intranet:before {
+.magis-list-params:before {
     content: "\f112";
 }
-.magis-list-params:before {
+.magis-loan:before {
     content: "\f113";
 }
-.magis-loan:before {
+.magis-magis:before {
     content: "\f114";
 }
-.magis-magis:before {
+.magis-menu:before {
     content: "\f115";
 }
-.magis-menu:before {
+.magis-mif:before {
     content: "\f116";
 }
-.magis-mif:before {
+.magis-overview:before {
     content: "\f117";
 }
-.magis-overview:before {
+.magis-phone-regular:before {
     content: "\f118";
 }
-.magis-phone-regular:before {
+.magis-plus:before {
     content: "\f119";
 }
-.magis-plus:before {
+.magis-regular-credit-simulation:before {
     content: "\f11a";
 }
-.magis-report:before {
+.magis-regular-heart:before {
     content: "\f11b";
 }
-.magis-store:before {
+.magis-report:before {
     content: "\f11c";
 }
-.magis-wallet:before {
+.magis-store:before {
     content: "\f11d";
 }
-.magis-withdrawal:before {
+.magis-wallet:before {
     content: "\f11e";
+}
+.magis-withdrawal:before {
+    content: "\f11f";
 }

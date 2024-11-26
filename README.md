@@ -13,7 +13,7 @@ Magis
 Installez via npm :
 
 ```bash
-npm install my-icon-package
+npm install webfontmagis
 ```
 
 # 📖 Usage
@@ -98,7 +98,8 @@ Pour installer les icônes et les fichiers Dart nécessaires à l'utilisation de
 
    ```
 
-   dans le code: 
+   dans le code:
+
    ```
    import 'package:my_icon_package/my_icon_package.dart';
 
