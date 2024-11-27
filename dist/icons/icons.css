@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?dd3d0f9b275d7db0a777793a4064cfee?#iefix") format("embedded-opentype"),
-url("./icons.woff2?dd3d0f9b275d7db0a777793a4064cfee") format("woff2"),
-url("./icons.woff?dd3d0f9b275d7db0a777793a4064cfee") format("woff"),
-url("./icons.ttf?dd3d0f9b275d7db0a777793a4064cfee") format("truetype"),
-url("./icons.svg?dd3d0f9b275d7db0a777793a4064cfee#icons") format("svg");
+    src: url("./icons.eot?ced25caa200856c9ef4f8f170dfa25af?#iefix") format("embedded-opentype"),
+url("./icons.woff2?ced25caa200856c9ef4f8f170dfa25af") format("woff2"),
+url("./icons.woff?ced25caa200856c9ef4f8f170dfa25af") format("woff"),
+url("./icons.ttf?ced25caa200856c9ef4f8f170dfa25af") format("truetype"),
+url("./icons.svg?ced25caa200856c9ef4f8f170dfa25af#icons") format("svg");
 }
 
 i[class^="magis-"]:before, i[class*=" magis-"]:before {
@@ -48,66 +48,72 @@ i[class^="magis-"]:before, i[class*=" magis-"]:before {
 .magis-filter:before {
     content: "\f10a";
 }
-.magis-gear:before {
+.magis-glass:before {
     content: "\f10b";
 }
-.magis-glass:before {
+.magis-grid:before {
     content: "\f10c";
 }
-.magis-grid:before {
+.magis-heart:before {
     content: "\f10d";
 }
-.magis-heart:before {
+.magis-home:before {
     content: "\f10e";
 }
-.magis-home:before {
+.magis-house:before {
     content: "\f10f";
 }
-.magis-house:before {
+.magis-intranet:before {
     content: "\f110";
 }
-.magis-intranet:before {
+.magis-list-params:before {
     content: "\f111";
 }
-.magis-list-params:before {
+.magis-loan:before {
     content: "\f112";
 }
-.magis-loan:before {
+.magis-magis:before {
     content: "\f113";
 }
-.magis-magis:before {
+.magis-menu:before {
     content: "\f114";
 }
-.magis-menu:before {
+.magis-mif:before {
     content: "\f115";
 }
-.magis-mif:before {
+.magis-overview:before {
     content: "\f116";
 }
-.magis-overview:before {
+.magis-phone-regular:before {
     content: "\f117";
 }
-.magis-phone-regular:before {
+.magis-plus:before {
     content: "\f118";
 }
-.magis-plus:before {
+.magis-regular-bourse:before {
     content: "\f119";
 }
 .magis-regular-credit-simulation:before {
     content: "\f11a";
 }
-.magis-regular-heart:before {
+.magis-regular-dashboard:before {
     content: "\f11b";
 }
-.magis-report:before {
+.magis-regular-gear:before {
     content: "\f11c";
 }
-.magis-store:before {
+.magis-regular-heart:before {
     content: "\f11d";
 }
-.magis-wallet:before {
+.magis-report:before {
     content: "\f11e";
 }
-.magis-withdrawal:before {
+.magis-store:before {
     content: "\f11f";
+}
+.magis-wallet:before {
+    content: "\f120";
+}
+.magis-withdrawal:before {
+    content: "\f121";
 }
